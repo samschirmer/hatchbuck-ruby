@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "Hatchbuck"
-  s.version     = "0.0"
+  s.version     = "0.0.0"
   s.date        = "2017-01-20"
   s.summary     = "CLI interface for Hatchbuck API"
   s.description = "Under heavy development"
