@@ -13,7 +13,7 @@ The currently supported calls are:
 Basic usage is as follows:
 
 - `Hatchbuck::Key.set('API KEY HERE')` is obviously required
-- `Hatchbuck::Contact.search(email [or] contact id)` returns all metadata about the contact or a boolean false if not found
+- `Hatchbuck::Contact.search(email [or] contact id)` returns all metadata about the contact (false if not found)
 - `Hatchbuck::Contact.create(fname, lname, email)` returns all metadata about the new contact
 - `Hatchbuck::Tag.create(email [or] contactid, tag id)` gives a confirmation of success
 
