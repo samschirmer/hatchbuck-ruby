@@ -1,4 +1,6 @@
-# This is a very rudimentary gem for interfacing with the Hatchbuck API. The currently supported calls are:
+# Hatchbuck-Ruby 
+
+This is a very rudimentary gem for interfacing with the Hatchbuck API. The currently supported calls are:
 
 - search for contact by contact id or email address
 - create a basic contact record (first/last names, email address)
