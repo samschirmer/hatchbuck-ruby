@@ -15,5 +15,15 @@ module Hatchbuck
 			return "#{base_path}#{object}#{action}?api_key=#{key}"
 		end
 	end
+
+	module TermDeterminer
+		def self.determine(term)
+			if term =~ /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
+				return 'email'
+			else
+				return 'contactid'
+			end
+		end
+	end
 end
 
