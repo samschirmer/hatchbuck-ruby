@@ -1,6 +1,6 @@
 # Hatchbuck-Ruby 
 
-This is a very rudimentary gem for interfacing with the Hatchbuck API. This is severly under/untested. It should work just fine for basic scripting needs, I haven't even tried it in a Rails app yet, so use at your own risk. 
+This is a very rudimentary gem for interfacing with the Hatchbuck API. This is severly under/untested. It should work just fine for basic scripting needs, but as I haven't even tried it in a Rails app yet, so use at your own risk. 
 
 Required dependencies: JSON and Faraday. 
 
