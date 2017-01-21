@@ -1,6 +1,0 @@
-!!! SOURCE AND EMAIL ADDRESS TYPE ARE HARDCODED !!!
-
-FIX THIS
-
-set a conditional to allow them to push in keys for each
-if null, put in typeName = Work/Prospect
