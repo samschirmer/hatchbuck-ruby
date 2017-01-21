@@ -18,12 +18,19 @@ Basic usage is as follows:
 - `Hatchbuck::Tag.create(email [or] contactid, tag id)` gives a confirmation of success
 
 Contact.create hash schema:
+
 		contact = Hash[
+
 			'firstname' => your_string,
+
 			'lastname' => your_string,
+
 			'email' => your_string,
+
 			'email_type_id' => your_lookup_key_string_from_hb,
+
 			'status_id' => your_lookup_key_string_from_hb'
+
 		]
 
 
