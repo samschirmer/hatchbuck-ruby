@@ -32,15 +32,9 @@ if response
 	#
 	if response == 'not found'
 		puts "Contact not found. Creating it..."
-
-		# DEBUG
-		# email_stub = rand(100) + rand(100) + rand(100) + rand(100) * rand(100) 
-		# DEBUG
-
 		contact = Hash[
 			'firstname' => fname,
 			'lastname' => lname,
-#			'email' => "gem_test_#{email_stub}@hatchbuck.com",
 			'email' => new_signup,
 			'email_type_id' => 'VmhlQU1pZVJSUFFJSjZfMHRmT1laUmwtT0FMNW9hbnBuZHd2Q1JTdE0tYzE1',
 			'status_id' => 'M1BWX2RLc0FITklIMWRjMUUteGJ1ZTJEMEZiU2ktd0hCOUE1NTNUZTgzSTE1'
