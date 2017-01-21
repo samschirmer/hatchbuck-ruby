@@ -4,7 +4,7 @@ module Hatchbuck
 			@api_key = key
 		end
 		def self.get
-		return @api_key
+			return @api_key
 		end
 	end
 
@@ -25,5 +25,6 @@ module Hatchbuck
 			end
 		end
 	end
+
 end
 
